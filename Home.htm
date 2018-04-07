@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+   <!--
+      Final Assignment
+	  COMP 2681
+	  
+      Author: Amanda Tomlinson
+      Date:   Dec 11, 2016
+
+      Filename:         home.htm
+      Supporting files: logo6.jpg, photo1.jpg, photo2.jpg, photo3.jpg
+   -->
+	  
+	  <meta charset="UTF-8">
+	  <meta name="description" content="Above and Beyond is a B&B located in the mountains of OK Falls near Penticton.">
+	  <meta name="keywords" content="B&B, Bed and Breakfast, travel, hotel, inn, room, rent, rentals, penticton, Ok Falls, Mountains, View, Pool">
+	  <meta name="author" content="Amanda Tomlinson">
+	   
+     <title>Above and Beyond B&amp;B</title>
+   
+
+    <script src="modernizr-1.5.js" type="text/javascript" ></script>
+	  
+	 
+	<style type="text/css">
+	    * {
+			background-color: black;
+			color: rgb(255,250,240);
+		}
+		
+		header #banner{
+			float: center;
+			margin-left: 70px;
+		}
+	  
+		#today {
+			color: grey;
+			margin-top: 0px;
+		}
+		
+		section .nav ul{
+			clear: left;
+			list-style-type: none;
+			margin: 0px;
+			padding: 0px;
+			overflow: hidden;
+			margin-left: 565px;
+		
+		}
+		
+		section .nav ul li {
+			float: left;
+		}
+		
+		section .nav ul li a{
+			display: block;
+			color: rgb(255,250,240);
+			text-align: left;
+			font-size: 20px;
+			font-family: serif;
+			letter-spacing: .1em;
+			font-variant: small-caps;
+			padding: 0px 65px;
+			text-decoration: none;
+			font-style: normal;
+			font-weight: 200;
+		}
+		
+		section .nav ul li:hover a{
+			color: rgb(255,250,240);
+			text-decoration: line-through;
+			list-style-type: none;
+		}
+		article {
+			display: block;
+			width: 90%;
+			margin-left: 85px;
+			font-size: 1.2em;
+			margin-top: 0px;
+			
+		}
+		section h2 {
+			margin-bottom: 0px;
+			padding-bottom: 2px;
+		}
+		
+		section p {
+			padding-top: 2px;
+			margin-top: 0px;
+		}
+		.firstcharacter { 
+			float: left; 
+			color: 	rgb(128,128,0); 
+			font-size: 50px;
+			line-height: 30px; 
+			padding-top: 2px; 
+			padding-right: 8px;
+			padding-left: 3px; 
+			font-family: Georgia; 
+		}
+		
+		
+		#about {
+		margin-top: 50px;
+		margin-left: 220px;
+		margin-right: 200px;
+		}
+		
+		#about img{
+			display: inline;
+			-moz-border-radius:25px 25px;
+			-webkit-border-radius: 25px 25px;
+			border-radius: 25px 25px;
+		}
+		
+		#photo1 {
+		-o-transform: rotate(-5deg);
+		-moz-transform: rotate(-5deg);
+		-webkit-transform: rotate(-5deg);
+		-ms-transform: rotate(-5deg);
+		transform: rotate(-5deg);
+		opacity: 0.7;
+		}
+		
+		#photo3 {
+		-o-transform: rotate(5deg);
+		-moz-transform: rotate(5deg);
+		-webkit-transform: rotate(5deg);
+		-ms-transform: rotate(5deg);
+		transform: rotate(5deg);
+		opacity: 0.7;
+		}
+		
+		article figure #tour {
+		float: center;
+		margin-left: 380px;
+		
+		}
+		
+		article #cross {
+			clear: left;
+			margin-top: 20px;
+			color: white;
+		}
+		
+		#footer {
+		   clear: both;
+		   margin-top: 50px;
+		   margin-left: 400px;
+		   width: 800px;
+		   
+		}
+
+		#footer address {
+		   font-size: 15px;
+		   font-style: italic;
+		   text-align: center;
+		   padding-top: 10px;
+		}
+		
+	</style>	
+	 
+	  
+	<script type = "text/javascript">
+		function Today() {
+			thisDate = new Date();
+			document.write(thisDate);
+		}
+		
+	</script>
+		
+    </head>
+   
+    <body>
+      
+	  
+		<header>
+		
+		<!-- Today's Date -->
+			<div id="today">
+				<script type="text/javascript">
+					Today();
+				</script>
+			</div>
+			
+			<!-- Image Map-->
+			<img src="./Images/logo6.jpg" alt="Above and Beyond" width="1500" height="400" id="banner"  usemap="#housemap"/>
+			<map name="housemap" id="housemap">
+				<area alt="" title="Home Page" href="home.htm" shape="rect" coords="11,8,555,460" />
+				<area alt="" title="Tour Page" href="tour.htm" shape="rect" coords="581,18,1661,474" />
+			</map>
+			
+        </header> 
+		 
+		<section>
+			<div id="nav">
+		    <nav class="nav">
+				<ul>
+				   <li><a href="home.htm">Home  </a></li>
+				   <li><a href="tour.htm">Tour  </a></li>
+				   <li><a href="activities.htm">Activities  </a></li>
+				   <li><a href="rates.htm">Rates  </a></li>
+				   <li><a href="contact.htm">Contact  </a></li>
+				</ul>
+			</nav> 
+			</div>
+			<article>
+			
+				<h2 style="color: rgba(255,250,240,.9); background-color: rgba(0,0,0,1); font-family: Charcoal, Hoefler Text, Liberation Serif, Times, Times New Roman, serif; font-style: italic; text-align: left; font-size: 60px; letter-spacing: .1em;" id="welcome">Welcome</h2>
+				
+				<p><span class="firstcharacter" id="drop">L</span> ocated at the mountain top overlooking beautiful Skaha lake, lies this award winning home. Built by green builder Rivendell Homes, it is heated and cooled by geothermal energy. 
+					Starting this winter season get great rates on rooms and accomodations.  This 7000 square foot home sits on over an acre
+					of property. The back of the home includes a concrete patio, outdoor kitchen, and in ground pool. There are multiple patio areas around the back of the house that all enjoy breathtaking views of Skaha Lake and the vineyards.
+					Above &amp; Beyond is owned by Gary and Christa Tomlinson. Gary is a successful entrepreneuar in the mining industry and runs his own company out of the home. Christa grew up in Germany and speaks fluent German and English. 
+					She also plays an important role in Gary's business and managing the B&amp;B. The couple have three small dogs together, Charlie, Bitsy, and Shorty. Guests are welcome to bring their dogs, provided they are friendly and under control. 
+					Children are also welcome at Above &amp; Beyond. 
+					You can find our room rentals and availabilty on our <a href="rates.htm">rates</a>	page.</p>
+				
+				<div id="about">
+					<img src="./Images/photo1.jpg" alt="Above and Beyond" height="300" id="photo1" />
+					<img src="./Images/photo2.jpg" alt="Above and Beyond" width="300" id="photo2" />
+					<img src="./Images/photo3.jpg" alt="Above and Beyond" height="300" id="photo3" />
+				</div>	
+				
+				
+				
+				<p style="text-indent: 20px; padding-top: 40px;">Penticton is home to some very prestigious wineries which you can view and check out in the <a href="activities.htm">activities</a> section of the website. 
+					Above &amp; Beyond hosts a morning breakfast every day at 9am provided by Christa who has extensive chef experience. Some amenities that are available to all guests at Above &amp;
+					Beyond are the use of the pool, outdoor bar/BBQ area, gym, theatre room, and steam shower. The house also has central air conditioning and heated floors. Free Wi-Fi is provided for 
+					all guests and they have access to all the 4 seating areas in the house. Bike rentals are available whether you enjoy mountain biking or street riding. Three kayaks are available for 
+					rent for those who wish to explore the lake. There is also a Mercedes luxury motorhome or Mercedes SUVs available for rent. Please visit our <a href=”contact.htm”>contact</a>  page and 
+					message us for any inquiries about bike, kayak, car, or motorhome rentals.</p>
+					<figure>
+				    <object data="https://player.vimeo.com/video/96775446"  width="640" height="360" id="tour"></object>
+					
+					</figure>
+					
+				 <div id="cross">		
+					 <p><a href="CrossReference.htm">Cross Reference Page </a>
+					 <br>
+					 Last Updated: Novemeber 16, 2016 </p>
+				 </div>
+			 </article>
+			 
+		 </section>
+         <div id="footer">
+            <address>
+               Above and Beyond B&amp;B &nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+               148 Apple Court, OK Falls &nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+               (250)319-4662
+            </address>
+         </div>
+
+		
+   </body>
+
+</html>
+ 
