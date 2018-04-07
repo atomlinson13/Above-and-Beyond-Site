@@ -1,0 +1,66 @@
+/*
+   Main Header and Theme for tour, activities, contact, and rates pages
+
+
+   Filename: theme.css
+   Supporting Files: 
+
+*/
+
+/* Body Styles */
+* {
+	background-color: black;
+	color: rgb(255,250,240);
+}
+
+/* Header Styles */
+header #banner {
+	float: center;
+	margin-left: 100px;
+}
+
+/* Main Section Navigation Styles */
+
+section nav ul {
+	clear: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	margin-left: 600px;
+}
+section nav ul li {
+	float: left;
+}
+section nav ul li a {
+	display: block;
+	color: rgb(255,250,240);
+	text-align: left;
+	font-size: 20px;
+	font-family: serif;
+	letter-spacing: .1em;
+	font-variant: small-caps;
+	padding: 5px 65px;
+	text-decoration: none;
+}
+section nav ul li:hover a {
+	color: rgb(255,250,240);
+	text-decoration: line-through;
+	list-style-type: none;
+}
+
+/* Footer Styles */
+footer {
+	clear: both;
+	margin-top: 50px;
+	margin-left: 400px;
+	width: 800px;
+}
+footer address {
+	font-size: 15px;
+	font-style: italic;
+	text-align: center;
+	padding-top: 10px;
+}
+
+

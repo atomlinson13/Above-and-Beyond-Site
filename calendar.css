@@ -1,0 +1,69 @@
+/*
+   New Perspectives on HTML, CSS, and JavaScript
+   Tutorial 5
+   Case Problem 2
+
+   CCC Calendar Table style sheet
+   Author: Lewis Kern
+   Date:   3/1/2014
+
+   Filename:         calendar.css
+   Supporting Files: bottom.jpg, bottomleft.jpg, bottomright.jpg,
+                     left.jpg, right.jpg, top.jpg,
+                     tab.jpg, topleft.jpg, topright.jpg, redtab.jpg
+
+*/
+
+
+
+#calendar_table {
+   background-color: white; 
+   border: 10px outset rgb(191, 191, 191);
+ 
+   font-size: 10px; 
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0px 0px 5px 5px;
+   width: 100%;
+
+}
+
+#calendar_head {
+   color: black; 
+   letter-spacing: 5px;
+   height: 25px;
+   line-height: 25px;
+   font-size: 14px;
+   background-color: skyblue; 
+   
+}
+
+.calendar_weekdays {
+   background-color: beige;
+   width: 14%; 
+   font-size: 12px; 
+   color: black;
+   border-bottom: 3px solid gray;
+}
+
+.calendar_dates {
+   text-align: right; 
+   vertical-align: top;
+   font-size: 15px;
+   padding: 0px;
+   border: 1px dotted gray;
+   background-color: white;
+   color: black;
+   height: 60px;
+}
+
+#calendar_today {
+   font-weight: bold; 
+   color: rgb(223,29,29); 
+   background-color: ivory;
+   border: 1px solid black;
+}
+
+#blank {
+	background-color: white;
+	
+}

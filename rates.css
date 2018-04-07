@@ -1,0 +1,56 @@
+/*
+  Styles for page rates.htm
+
+
+   Filename: rates.css
+   Supporting Files: 
+
+*/
+
+
+@import url("webfonts/ostrich_light/stylesheet.css");
+
+/* Article Styles */
+article {
+	margin-top: 25px;
+}
+
+article ul {
+	margin-left: 100px;
+}
+
+article ul li {
+	float: left;
+	text-decoration: none;
+	list-style-type: none;
+	margin-top: 36px;
+	margin-right: 12em;
+	margin-left: 2em;
+}
+
+article ul li a {
+	text-decoration: none;
+	font-size: 52px;
+	font-family: "ostrich light";
+	letter-spacing: 5px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+article ul li:hover a {
+	color: grey;
+}
+
+/* Article Img Styles */
+article img {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 30px;
+}
+
+#rate {
+	clear: left;
+	margin-left: 120px;
+}
+
+

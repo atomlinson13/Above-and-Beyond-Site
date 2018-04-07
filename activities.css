@@ -1,0 +1,99 @@
+/*
+  Styles for page activities.htm
+
+
+   Filename: actitivities.css
+   Supporting Files: 
+
+*/
+
+/* Article Styles */
+article {
+	font-size: 20px;
+	font-family: 'Century Gothic';
+}
+article h1 {
+	olor: rgba(253,245,230,1);
+	font-family: Charcoal; 
+	font-weight: normal; 
+    font-size: 25px;
+	letter-spacing: .2em; 
+	font-variant: small-caps;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	
+}
+article a {
+	text-decoration: none;	
+}
+article li {
+	padding-bottom: 7px;
+}
+
+/* Article Lists Styles */
+article #list1 {
+margin-top: 20px;	
+margin-left: 100px;
+margin-right: 100px;	
+}
+
+article #list2 {
+	display: block;
+	float: left;
+	margin-left: 120px;
+}
+
+article #list3 {
+	display: block;
+	float: left;
+	margin-left: 150px;
+}
+
+article ul li a:link {
+	color: white;
+}
+
+article ul li a:hover {
+   text-decoration: line-through;	
+}
+
+article ul li a:visited {
+
+color: grey;
+
+}
+
+/* Video Styles */
+#video {
+	display: block;
+	float: center;
+	margin-left: 350px;
+	margin-top: 20px;
+}
+
+/* Calendar Link Styles */
+#calendar {
+	clear: left;
+	margin: 60px 400px;
+}
+
+#calendar a:hover {
+   text-decoration: line-through;	
+}
+
+
+/* Footer Styles */
+footer {
+   clear: both;	
+   margin-top: 0px;
+   margin-left: 400px;
+   width: 800px;
+   
+}
+
+footer address {
+   font-size: 15px;
+   font-style: italic;
+   text-align: center;
+   padding-top: 10px;
+}
